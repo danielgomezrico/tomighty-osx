@@ -111,23 +111,23 @@
 		30415FB018C51B6A0069FAE3 /* TYPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYPreferences.h; path = Core/Preferences/TYPreferences.h; sourceTree = "<group>"; };
 		30415FB418C51C290069FAE3 /* TYUserDefaultsPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYUserDefaultsPreferences.h; path = Core/Preferences/TYUserDefaultsPreferences.h; sourceTree = "<group>"; };
 		30415FB518C51C290069FAE3 /* TYUserDefaultsPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYUserDefaultsPreferences.m; path = Core/Preferences/TYUserDefaultsPreferences.m; sourceTree = "<group>"; };
-		304AF81218BD04BE00A2EA74 /* Tomighty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomighty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304AF81218BD04BE00A2EA74 /* TomightyTerror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomightyTerror.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304AF81518BD04BE00A2EA74 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		304AF81818BD04BE00A2EA74 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		304AF81918BD04BE00A2EA74 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		304AF81A18BD04BE00A2EA74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		304AF81D18BD04BE00A2EA74 /* Tomighty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tomighty-Info.plist"; sourceTree = "<group>"; };
+		304AF81D18BD04BE00A2EA74 /* TomightyTerror-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TomightyTerror-Info.plist"; sourceTree = "<group>"; };
 		304AF81F18BD04BE00A2EA74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		304AF82118BD04BE00A2EA74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		304AF82318BD04BE00A2EA74 /* Tomighty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tomighty-Prefix.pch"; sourceTree = "<group>"; };
+		304AF82318BD04BE00A2EA74 /* TomightyTerror-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TomightyTerror-Prefix.pch"; sourceTree = "<group>"; };
 		304AF82518BD04BE00A2EA74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		304AF82718BD04BE00A2EA74 /* TYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYAppDelegate.h; sourceTree = "<group>"; };
 		304AF82818BD04BE00A2EA74 /* TYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYAppDelegate.m; sourceTree = "<group>"; };
 		304AF82B18BD04BE00A2EA74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		304AF82D18BD04BE00A2EA74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		304AF83318BD04BE00A2EA74 /* TomightyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomightyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		304AF83318BD04BE00A2EA74 /* TomightyTerrorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomightyTerrorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		304AF83418BD04BE00A2EA74 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		304AF83B18BD04BF00A2EA74 /* TomightyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TomightyTests-Info.plist"; sourceTree = "<group>"; };
+		304AF83B18BD04BF00A2EA74 /* TomightyTerrorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TomightyTerrorTests-Info.plist"; sourceTree = "<group>"; };
 		304AF83D18BD04BF00A2EA74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3054083218D259E2009523AC /* OCMockito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMockito.framework; sourceTree = "<group>"; };
 		3054083418D259F0009523AC /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrest.framework; sourceTree = "<group>"; };
@@ -273,8 +273,8 @@
 		304AF81318BD04BE00A2EA74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				304AF81218BD04BE00A2EA74 /* Tomighty.app */,
-				304AF83318BD04BE00A2EA74 /* TomightyTests.xctest */,
+				304AF81218BD04BE00A2EA74 /* TomightyTerror.app */,
+				304AF83318BD04BE00A2EA74 /* TomightyTerrorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -318,10 +318,10 @@
 		304AF81C18BD04BE00A2EA74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				304AF81D18BD04BE00A2EA74 /* Tomighty-Info.plist */,
+				304AF81D18BD04BE00A2EA74 /* TomightyTerror-Info.plist */,
 				304AF81E18BD04BE00A2EA74 /* InfoPlist.strings */,
 				304AF82118BD04BE00A2EA74 /* main.m */,
-				304AF82318BD04BE00A2EA74 /* Tomighty-Prefix.pch */,
+				304AF82318BD04BE00A2EA74 /* TomightyTerror-Prefix.pch */,
 				304AF82418BD04BE00A2EA74 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -340,7 +340,7 @@
 		304AF83A18BD04BF00A2EA74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				304AF83B18BD04BF00A2EA74 /* TomightyTests-Info.plist */,
+				304AF83B18BD04BF00A2EA74 /* TomightyTerrorTests-Info.plist */,
 				304AF83C18BD04BF00A2EA74 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -490,9 +490,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		304AF81118BD04BE00A2EA74 /* Tomighty */ = {
+		304AF81118BD04BE00A2EA74 /* TomightyTerror */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 304AF84318BD04BF00A2EA74 /* Build configuration list for PBXNativeTarget "Tomighty" */;
+			buildConfigurationList = 304AF84318BD04BF00A2EA74 /* Build configuration list for PBXNativeTarget "TomightyTerror" */;
 			buildPhases = (
 				304AF80E18BD04BE00A2EA74 /* Sources */,
 				304AF80F18BD04BE00A2EA74 /* Frameworks */,
@@ -502,14 +502,14 @@
 			);
 			dependencies = (
 			);
-			name = Tomighty;
+			name = TomightyTerror;
 			productName = Tomighty;
-			productReference = 304AF81218BD04BE00A2EA74 /* Tomighty.app */;
+			productReference = 304AF81218BD04BE00A2EA74 /* TomightyTerror.app */;
 			productType = "com.apple.product-type.application";
 		};
-		304AF83218BD04BE00A2EA74 /* TomightyTests */ = {
+		304AF83218BD04BE00A2EA74 /* TomightyTerrorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 304AF84618BD04BF00A2EA74 /* Build configuration list for PBXNativeTarget "TomightyTests" */;
+			buildConfigurationList = 304AF84618BD04BF00A2EA74 /* Build configuration list for PBXNativeTarget "TomightyTerrorTests" */;
 			buildPhases = (
 				304AF82F18BD04BE00A2EA74 /* Sources */,
 				304AF83018BD04BE00A2EA74 /* Frameworks */,
@@ -521,9 +521,9 @@
 			dependencies = (
 				304AF83818BD04BF00A2EA74 /* PBXTargetDependency */,
 			);
-			name = TomightyTests;
+			name = TomightyTerrorTests;
 			productName = TomightyTests;
-			productReference = 304AF83318BD04BE00A2EA74 /* TomightyTests.xctest */;
+			productReference = 304AF83318BD04BE00A2EA74 /* TomightyTerrorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -541,7 +541,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 304AF80D18BD04BE00A2EA74 /* Build configuration list for PBXProject "Tomighty" */;
+			buildConfigurationList = 304AF80D18BD04BE00A2EA74 /* Build configuration list for PBXProject "TomightyTerror" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -554,8 +554,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				304AF81118BD04BE00A2EA74 /* Tomighty */,
-				304AF83218BD04BE00A2EA74 /* TomightyTests */,
+				304AF81118BD04BE00A2EA74 /* TomightyTerror */,
+				304AF83218BD04BE00A2EA74 /* TomightyTerrorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -646,7 +646,7 @@
 /* Begin PBXTargetDependency section */
 		304AF83818BD04BF00A2EA74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 304AF81118BD04BE00A2EA74 /* Tomighty */;
+			target = 304AF81118BD04BE00A2EA74 /* TomightyTerror */;
 			targetProxy = 304AF83718BD04BF00A2EA74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -768,9 +768,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tomighty/Tomighty-Prefix.pch";
-				INFOPLIST_FILE = "Tomighty/Tomighty-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Tomighty/TomightyTerror-Prefix.pch";
+				INFOPLIST_FILE = "Tomighty/TomightyTerror-Info.plist";
+				PRODUCT_NAME = TomightyTerror;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -780,9 +780,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tomighty/Tomighty-Prefix.pch";
-				INFOPLIST_FILE = "Tomighty/Tomighty-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Tomighty/TomightyTerror-Prefix.pch";
+				INFOPLIST_FILE = "Tomighty/TomightyTerror-Info.plist";
+				PRODUCT_NAME = TomightyTerror;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -803,8 +803,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TomightyTests/TomightyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TomightyTests/TomightyTerrorTests-Info.plist";
+				PRODUCT_NAME = TomightyTerrorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -822,8 +822,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tomighty/Tomighty-Prefix.pch";
-				INFOPLIST_FILE = "TomightyTests/TomightyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TomightyTests/TomightyTerrorTests-Info.plist";
+				PRODUCT_NAME = TomightyTerrorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -832,7 +832,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		304AF80D18BD04BE00A2EA74 /* Build configuration list for PBXProject "Tomighty" */ = {
+		304AF80D18BD04BE00A2EA74 /* Build configuration list for PBXProject "TomightyTerror" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				304AF84118BD04BF00A2EA74 /* Debug */,
@@ -841,7 +841,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		304AF84318BD04BF00A2EA74 /* Build configuration list for PBXNativeTarget "Tomighty" */ = {
+		304AF84318BD04BF00A2EA74 /* Build configuration list for PBXNativeTarget "TomightyTerror" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				304AF84418BD04BF00A2EA74 /* Debug */,
@@ -850,7 +850,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		304AF84618BD04BF00A2EA74 /* Build configuration list for PBXNativeTarget "TomightyTests" */ = {
+		304AF84618BD04BF00A2EA74 /* Build configuration list for PBXNativeTarget "TomightyTerrorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				304AF84718BD04BF00A2EA74 /* Debug */,
