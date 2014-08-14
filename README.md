@@ -1,6 +1,5 @@
 # Tomighty-Terror for Mac
 
-
 This is a fork of [tomighty](http://www.tomighty.org) with just the next changes:
 
 - Sounds
@@ -24,7 +23,6 @@ Thanks for the incredible icons to:
 * [yootheme](http://yootheme.com)
 
 
-License
-
+## License
 
 Tomighty-Terror for Mac is licensed under the terms of the Apache License 2.0. Read it here: https://www.apache.org/licenses/LICENSE-2.0.html
