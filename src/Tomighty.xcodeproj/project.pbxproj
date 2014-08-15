@@ -530,7 +530,7 @@
 			attributes = {
 				CLASSPREFIX = TY;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Gig Software";
+				ORGANIZATIONNAME = Cuadru;
 				TargetAttributes = {
 					304AF83218BD04BE00A2EA74 = {
 						TestTargetID = 304AF81118BD04BE00A2EA74;
