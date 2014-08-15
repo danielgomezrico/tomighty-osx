@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>tomighty</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.makingiants.osx.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.cuadru.osx.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

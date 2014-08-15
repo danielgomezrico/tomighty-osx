@@ -6,6 +6,11 @@ This is a fork of [tomighty](http://www.tomighty.org) with just the next changes
 - Icons
 
 
+## Architecture
+
+![](/docs/tomighty_architecture.png)
+
+
 ## Acknowledgements
 
 Thanks for fantastic sounds effects to:
