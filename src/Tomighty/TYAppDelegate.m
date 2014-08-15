@@ -9,6 +9,7 @@
 
 #import "TYTomighty.h"
 #import "TYSoundAgent.h"
+#import "TYUdpNetworkAgent.h"
 #import "TYSyntheticEventPublisher.h"
 #import "TYUserInterfaceAgent.h"
 
@@ -38,6 +39,7 @@
     id <TYTomighty> tomighty;
     id <TYPreferences> preferences;
     TYSoundAgent *soundAgent;
+    TYUdpNetworkAgent *networkAgent;
     TYSyntheticEventPublisher *syntheticEventPublisher;
     TYUserInterfaceAgent *userInterfaceAgent;
     TYPreferencesWindowController *preferencesWindow;
@@ -57,12 +59,14 @@
     
     preferences = [[TYUserDefaultsPreferences alloc] initWith:eventBus];
     soundAgent = [[TYSoundAgent alloc] initWith:soundPlayer preferences:preferences];
+    networkAgent = [[TYUdpNetworkAgent alloc] init];
     syntheticEventPublisher = [[TYSyntheticEventPublisher alloc] init];
     userInterfaceAgent = [[TYUserInterfaceAgent alloc] initWith:appUi];
     tomighty = [[TYDefaultTomighty alloc] initWith:timer preferences:preferences eventBus:eventBus];
     
     [syntheticEventPublisher publishSyntheticEventsInResponseToOtherEventsFrom:eventBus];
     [soundAgent playSoundsInResponseToEventsFrom:eventBus];
+    [networkAgent sendInResponseToEventsFrom:eventBus];
     [userInterfaceAgent updateAppUiInResponseToEventsFrom:eventBus];
     
     [self initMenuItemsIcons:imageLoader];
