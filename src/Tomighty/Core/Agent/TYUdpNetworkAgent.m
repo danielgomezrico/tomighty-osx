@@ -19,7 +19,6 @@
         
         [self sendBroadcastWithMessage:@"TIMER_STOPED"];
     }];
-    
 }
 
 - (void)sendBroadcastWithMessage:(NSString*)message
