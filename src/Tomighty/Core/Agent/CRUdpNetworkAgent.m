@@ -6,12 +6,12 @@
 //  Copyright (c) 2014 Cuadru. All rights reserved.
 //
 
-#import "TYUdpNetworkAgent.h"
+#import "CRUdpNetworkAgent.h"
 
 #define kHost @"255.255.255.255"
 #define kPort 8080
 
-@implementation TYUdpNetworkAgent
+@implementation CRUdpNetworkAgent
 
 - (void)sendInResponseToEventsFrom:(id <TYEventBus>)eventBus
 {

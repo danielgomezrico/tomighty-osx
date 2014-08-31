@@ -10,9 +10,8 @@
 #import "TYEventBus.h"
 #import "AsyncUdpSocket.h"
 
-@interface TYUdpNetworkAgent : NSObject
+@interface CRUdpNetworkAgent : NSObject
 
 - (void)sendInResponseToEventsFrom:(id <TYEventBus>)eventBus;
-
 
 @end
